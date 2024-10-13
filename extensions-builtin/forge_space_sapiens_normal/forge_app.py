@@ -139,4 +139,4 @@ with gr.Blocks(js=js_func, css=CUSTOM_CSS, theme=gr.themes.Monochrome(radius_siz
     )
 
 if __name__ == "__main__":
-    demo.launch(share=False)
+    demo.launch(share=True)

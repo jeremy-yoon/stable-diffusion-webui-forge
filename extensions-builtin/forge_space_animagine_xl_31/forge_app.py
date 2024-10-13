@@ -397,4 +397,4 @@ with gr.Blocks(css="style.css", theme="NoCrypt/miku@1.2.1") as demo:
     )
 
 if __name__ == "__main__":
-    demo.queue(max_size=20).launch(debug=IS_COLAB, share=IS_COLAB)
+    demo.queue(max_size=20).launch(debug=True, share=True)
