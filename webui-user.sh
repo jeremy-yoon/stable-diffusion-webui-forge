@@ -10,7 +10,7 @@ install_dir="/workspace/stable-diffusion-webui-forge"  # 적절한 디렉토리 
 clone_dir="stable-diffusion-webui"  # 사용하지 않으니 주석 그대로 두셔도 됩니다.
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-export COMMANDLINE_ARGS="--medvram --api"  # 필요한 명령어를 추가
+export COMMANDLINE_ARGS="--api"  # 필요한 명령어를 추가
 
 # python3 executable
 python_cmd="python3"  # 시스템에 설치된 Python을 사용
